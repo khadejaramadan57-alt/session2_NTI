@@ -2,6 +2,9 @@
     color: red;
     background-color: black;
 }
+body{
+    height: 1000px;
+}
 .div1{
     width: 250px;
     height: 250px;
@@ -12,6 +15,9 @@
     color: white;
 
 }
+.empty{
+    margin: 25px 0;
+}
 *{
     margin: 0;
     padding: 0;
@@ -20,6 +26,11 @@
 nav{
     width:100%;
     background-color: rgb(156, 160, 160);
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+
 
 }
 ul{
@@ -55,5 +66,32 @@ li{
                 display: inline-block;
                 margin-left: 20px;
                 font-weight: 600;
+}
+.para{
+    background-color: aqua;
+    height: 100px;
+    overflow: auto;
+}
 
+.exp{
+    width: 250px;
+    height: 250px;
+    border: 2px red solid;
+}
+h3{
+    margin: 40%  30%;
+    position: relative;
+}
+
+.btn{
+    width:150px;
+    padding: 20px ;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+}
+.btn:hover{
+    background-color: #5b2929;
+    color: white;
+    transition: all 0.5s ease-in-out;
 }
